@@ -1,17 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "reset.css";
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
-.header-box {
+.home {
     background-image: url(/Plant-Shop-Website/assets/img/Background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+   text-decoration: none;
+   color: #fff
+}
+
+.home-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 25px;
+    padding-top: 20px;   
+}
+
+.home-nav ul li {
+    padding: 0 20px;
+}
+
+
+.home-nav button {
+    padding: 10px;
+    border-radius: 10px;  
+    border: none;
+    background: #B7EAAF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-box {
+    padding: 0px 27%;
+    margin-top: 140px;
+   
+}
+
+.main-box h1 {
+    font-size: 100px ; 
+    text-align: center;
+    font-weight: bolder;
+    color: #F0FFEE;
+    line-height: 110%;
+}
+
+.main-box h1 span {
+    color: #D2FFCB;
+}
+
+.main-box .main-intro {
+    color: #fff;
+    opacity: 80%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 140%;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+
+}
+.btn-watch {
+    border: 2px solid white;
+    margin-top: 40px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.main-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-icons li {
+    padding: 0 20px;
+}
+
+.try-service {
+    margin: 50px 36%;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.try-service button {
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    background: #375739;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -5px 7px 9px 1px rgb(0 0 0 / 25%);
+}
+.try-span {
+    color: #B7EAAF;
+    font-size: 18px;
+    font-weight: bold;
+}
+.try-explan {
+    text-align: center;
+    font-size: 18px;
+}
+
+.type-plants {
+    width: 100%;
+}
+
+.type-plants-heading h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #355342;
+    font-weight: bold;
+}
+
+.type-group {
+    display: flex;
+    justify-content: center;
+}
+.type-card {
+    border: 1px solid black;
+    width: 300px;
+    height: 255px;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+
+/* 
+
+
+.header-box {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,17 +160,9 @@ body {
 }
 
 .main-nav {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    font-size: 20px;
-    padding-top: 40px;
 }
 
-.main-nav li {
-    padding: 0 30px;
-    list-style: none;
-}
+
 
 .main-nav li button {
     padding: 10px;
@@ -57,10 +190,19 @@ a {
     text-align: center;
 }
 
+.main-intro-word {
+    padding: 0;
+    text-align: center;
+    width: 400px;
+    padding-left: 10px;
+
+}
 .main-intro h1{
-    font-size: 5.2em;
+    font-size: 64px;
     text-align: center;
     padding-bottom: 50px;
+
+
 }
 
 .main-intro h1 span{
@@ -90,7 +232,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     list-style: none;
 }
 
@@ -106,4 +248,4 @@ a {
 
 .section-service button {
     width: 100px;
-}
+} */ */
