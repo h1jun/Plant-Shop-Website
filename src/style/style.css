@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-box {
+    background-image: url(/Plant-Shop-Website/assets/img/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.main-nav li {
+    padding: 0 30px;
+    list-style: none;
+}
+
+.main-nav li button {
+    padding: 10px;
+    border-radius: 10px;  
+    border: none;
+    background: #B7EAAF;
+    font-weight: bold; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-intro {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 527px;
+    color: #fff;
+    text-align: center;
+}
+
+.main-intro h1{
+    font-size: 5.2em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main-intro h1 span{
+    color: #D2FFCB;
+}
+
+.main-intro p {
+    font-size: 1.9em;
+    text-align: center;
+    opacity: 80%;
+}
+
+.main-intro .btn-watch {
+    border: 2px solid white;
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.main-intro .main-logos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    list-style: none;
+}
+
+.main-intro .main-logos ul li {
+    padding: 0 30px;
+}
+
+.section-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-service button {
+    width: 100px;
+}
